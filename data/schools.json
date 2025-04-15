@@ -240,7 +240,7 @@
           "abbreviation": "OU",
           "colors": {
             "primary": "#841617",
-            "secondary": "#FFFFFF",
+            "secondary": "#FDF9D8",
             "additional": {
               "dark_crimson": "#4E0002"
             }
@@ -408,7 +408,7 @@
             "primary": "#990000",
             "secondary": "#FFFFFF",
             "additional": {
-              "cream": "#F1BE48"
+              "cream": "#EEEDEB"
             }
           },
           "broadcast": {
@@ -428,8 +428,8 @@
           "teamName": "Hawkeyes",
           "abbreviation": "IOWA",
           "colors": {
-            "primary": "#000000",
-            "secondary": "#FFCD00",
+            "primary": "#FFCD00",
+            "secondary": "#000000",
             "additional": {
               "white": "#FFFFFF"
             }
@@ -545,7 +545,7 @@
           "abbreviation": "NEB",
           "colors": {
             "primary": "#E41C38",
-            "secondary": "#FFFFFF",
+            "secondary": "#000000",
             "additional": {
               "cream": "#F5F1E7"
             }
@@ -660,9 +660,9 @@
           "abbreviation": "RUT",
           "colors": {
             "primary": "#CC0033",
-            "secondary": "#000000",
+            "secondary": "#5F6A72",
             "additional": {
-              "white": "#FFFFFF"
+              "black": "#000000"
             }
           },
           "broadcast": {
@@ -1222,7 +1222,7 @@
           "teamName": "Bears",
           "abbreviation": "BAY",
           "colors": {
-            "primary": "#003015",
+            "primary": "#154734",
             "secondary": "#FFB81C",
             "additional": {
               "white": "#FFFFFF"
@@ -1384,7 +1384,7 @@
           "abbreviation": "KSU",
           "colors": {
             "primary": "#512888",
-            "secondary": "#FFFFFF",
+            "secondary": "#D1D1D1",
             "additional": {
               "silver": "#8D8D8D"
             }
@@ -1596,7 +1596,7 @@
           "abbreviation": "BRWN",
           "colors": {
             "primary": "#4E3629",
-            "secondary": "#C00",
+            "secondary": "#7C2529",
             "additional": {
               "white": "#FFFFFF"
             }
@@ -1619,9 +1619,9 @@
           "abbreviation": "COL",
           "colors": {
             "primary": "#9BCBEB",
-            "secondary": "#FFFFFF",
+            "secondary": "#002B7F",
             "additional": {
-              "dark_blue": "#002B7F"
+              "white": "#FFFFFF"
             }
           },
           "broadcast": {
@@ -1642,7 +1642,7 @@
           "abbreviation": "COR",
           "colors": {
             "primary": "#B31B1B",
-            "secondary": "#FFFFFF",
+            "secondary": "#5E3920",
             "additional": {
               "black": "#000000"
             }
@@ -1664,7 +1664,7 @@
           "teamName": "Big Green",
           "abbreviation": "DART",
           "colors": {
-            "primary": "#00693E",
+            "primary": "#046A38",
             "secondary": "#FFFFFF",
             "additional": {
               "black": "#000000"
