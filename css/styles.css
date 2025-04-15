@@ -1,0 +1,556 @@
+/* Theme Variables */
+:root {
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    --card-background: #fff;
+    --card-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    --tab-background: #fff;
+    --tab-active: #333;
+    --tab-active-text: #fff;
+}
+
+/* Dark Theme Colors */
+[data-theme="dark"] {
+    --background-color: #1a1a1a;
+    --text-color: #fff;
+    --card-background: #2d2d2d;
+    --card-shadow: 0 2px 5px rgba(255,255,255,0.1);
+    --tab-background: #2d2d2d;
+    --tab-active: #fff;
+    --tab-active-text: #1a1a1a;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: 2px solid currentColor;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--text-color);
+    transition: all 0.3s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+.dark-icon {
+    display: inline;
+}
+
+.light-icon {
+    display: none;
+}
+
+[data-theme="dark"] .dark-icon {
+    display: none;
+}
+
+[data-theme="dark"] .light-icon {
+    display: inline;
+}
+
+/* Additional dark mode adjustments */
+[data-theme="dark"] .color-label {
+    color: #ddd;
+}
+
+[data-theme="dark"] .tooltip {
+    background: #fff;
+    color: #1a1a1a;
+}
+
+/* Donation Styles */
+.donation-container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.donation-text {
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-size: 0.9em;
+}
+
+.donation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.donate-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--text-color);
+    background: var(--background-color);
+    border: 1px solid var(--text-color);
+    transition: all 0.3s ease;
+    font-size: 0.8em;
+}
+
+.donate-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.donate-button img {
+    width: 16px;
+    height: 16px;
+}
+
+.donate-button span {
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+/* Specific button styles */
+.donate-button.cashapp:hover {
+    background: #00D632;
+    border-color: #00D632;
+    color: white;
+}
+
+.donate-button.venmo:hover {
+    background: #3D95CE;
+    border-color: #3D95CE;
+    color: white;
+}
+
+.donate-button.paypal:hover {
+    background: #003087;
+    border-color: #003087;
+    color: white;
+}
+
+/* Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+    min-height: 100vh;
+    margin-bottom: 160px; /* Match clipboard height */
+}
+
+.nav-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: var(--tab-background);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}   
+
+.tab.active {
+    background-color: var(--tab-active);
+    color: var(--tab-active-text);
+}
+
+.conference-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    display: none;
+    margin-bottom: 20px; /* Reset to normal margin */
+}
+
+.conference-section.active {
+    display: grid;
+}
+
+.school-card {
+    background: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+}
+
+.school-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.colors-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.color-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.color-swatch {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 2px solid #ddd;
+}
+
+.color-swatch:hover {
+    transform: scale(1.1);
+}
+
+.color-label {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.tooltip {
+    position: fixed;
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    white-space: nowrap;
+}
+
+[data-theme="dark"] .tooltip {
+    background: #fff;
+    color: #333;
+}
+
+.conference-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: var(--text-color);
+    font-size: 1.1em;
+}
+
+/* Add these media queries at the end of your styles.css file */
+
+@media screen and (max-width: 768px) {
+    /* Header adjustments */
+    .header h1 {
+        font-size: 1.8em;
+        padding: 0 40px; /* Make room for theme toggle */
+    }
+
+    .header p {
+        font-size: 0.9em;
+        padding: 0 20px;
+    }
+
+    /* Theme toggle repositioning */
+    .theme-toggle {
+        top: 10px;
+        right: 10px;
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    /* Tab adjustments */
+    .nav-tabs {
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .tab {
+        padding: 8px 12px;
+        font-size: 0.9em;
+        flex: 1 1 auto;
+        text-align: center;
+        min-width: 100px;
+    }
+
+    /* School card adjustments */
+    .conference-section {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+
+    .school-card {
+        padding: 15px;
+    }
+
+    .school-name {
+        font-size: 1.1em;
+    }
+
+    /* Color swatches adjustments */
+    .colors-container {
+        justify-content: center;
+    }
+
+    .color-swatch {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Conference title */
+    .conference-title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    /* Donation buttons */
+    .donation-container {
+        margin-bottom: 15px;
+    }
+
+    .donation-buttons {
+        gap: 10px;
+    }
+
+    .donate-button {
+        padding: 5px 10px;
+    }
+
+    /* Target school cards in the last row */
+    .school-card:nth-last-child(-n+2) {
+        margin-bottom: 180px; /* Adjust for mobile layout */
+    }
+    
+    .conference-section {
+        margin-bottom: 180px;
+    }
+}
+
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 360px) {
+    body {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .tab {
+        min-width: 80px;
+        font-size: 0.8em;
+    }
+
+    .color-swatch {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Fix for iPhone notch */
+@supports (padding-top: env(safe-area-inset-top)) {
+    body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }
+}
+
+/* Selected Colors Section Styles */
+.selected-colors-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--card-background);
+    padding: 15px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    height: 160px;
+}
+
+.selected-colors-container.hidden {
+    transform: translateY(100%); /* Changed to hide completely */
+}
+
+.clipboard-toggle {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    background: var(--card-background);
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1001; /* Ensure toggle stays above container */
+}
+
+.clipboard-toggle:hover {
+    transform: translateY(-2px);
+}
+
+.clipboard-toggle .toggle-icon {
+    transition: transform 0.3s ease;
+}
+
+.hidden .clipboard-toggle .toggle-icon {
+    transform: rotate(180deg);
+}
+
+[data-theme="dark"] .clipboard-toggle {
+    border-color: var(--text-color);
+    color: var(--text-color);
+}
+
+.selected-colors-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.format-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.format-select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--text-color);
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+[data-theme="dark"] .format-select {
+    background: var(--card-background);
+}
+
+.selected-colors {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+.selected-color-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: var(--background-color);
+    border: 1px solid var(--text-color);
+    font-size: 0.9em;
+}
+
+.selected-color-swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.selected-color-remove {
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 50%;
+    background: rgba(255,0,0,0.1);
+    color: red;
+    font-size: 0.8em;
+}
+
+.no-selections {
+    color: var(--text-color);
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.selected-colors-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.action-button {
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid var(--text-color);
+    background: var(--background-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.action-button:hover {
+    background: var(--text-color);
+    color: var(--background-color);
+}
+
+/* Target school cards in the last row */
+.school-card:nth-last-child(-n+5) {
+    margin-bottom: 0;
+}
+
+/* Create a wrapper for all conference sections */
+.conference-wrapper {
+    margin-bottom: 160px; /* Match clipboard height */
+    min-height: calc(100vh - 400px); /* Adjust based on header height and other elements */
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .conference-wrapper {
+        margin-bottom: 180px; /* Slightly larger for mobile */
+    }
+    
+    .conference-section {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+}

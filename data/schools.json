@@ -1,0 +1,1830 @@
+{
+  "conferences": {
+    "SEC": {
+      "fullName": "Southeastern Conference",
+      "schools": [
+        {
+          "fullName": "University of Alabama",
+          "shortName": "Alabama",
+          "teamName": "Crimson Tide",
+          "abbreviation": "ALA",
+          "colors": {
+            "primary": "#9E1B32",
+            "secondary": "#828A8F",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "The University of Alabama",
+            "hashTag": "#RollTide",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Tuscaloosa",
+            "state": "AL"
+          }
+        },
+        {
+          "fullName": "University of Arkansas",
+          "shortName": "Arkansas",
+          "teamName": "Razorbacks",
+          "abbreviation": "ARK",
+          "colors": {
+            "primary": "#9D2235",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Arkansas",
+            "hashTag": "#WPS",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Fayetteville",
+            "state": "AR"
+          }
+        },
+        {
+          "fullName": "Auburn University",
+          "shortName": "Auburn",
+          "teamName": "Tigers",
+          "abbreviation": "AUB",
+          "colors": {
+            "primary": "#0C2340",
+            "secondary": "#E87722",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Auburn University",
+            "hashTag": "#WarEagle",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Auburn",
+            "state": "AL"
+          }
+        },
+        {
+          "fullName": "University of Florida",
+          "shortName": "Florida",
+          "teamName": "Gators",
+          "abbreviation": "FLA",
+          "colors": {
+            "primary": "#0021A5",
+            "secondary": "#FA4616",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Florida",
+            "hashTag": "#GoGators",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Gainesville",
+            "state": "FL"
+          }
+        },
+        {
+          "fullName": "University of Georgia",
+          "shortName": "Georgia",
+          "teamName": "Bulldogs",
+          "abbreviation": "UGA",
+          "colors": {
+            "primary": "#BA0C2F",
+            "secondary": "#000000",
+            "additional": {
+              "silver": "#808080"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Georgia",
+            "hashTag": "#GoDawgs",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Athens",
+            "state": "GA"
+          }
+        },
+        {
+          "fullName": "University of Kentucky",
+          "shortName": "Kentucky",
+          "teamName": "Wildcats",
+          "abbreviation": "UK",
+          "colors": {
+            "primary": "#0033A0",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Kentucky",
+            "hashTag": "#BBN",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Lexington",
+            "state": "KY"
+          }
+        },
+        {
+          "fullName": "Louisiana State University",
+          "shortName": "LSU",
+          "teamName": "Tigers",
+          "abbreviation": "LSU",
+          "colors": {
+            "primary": "#461D7C",
+            "secondary": "#FDD023",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Louisiana State University",
+            "hashTag": "#GeauxTigers",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Baton Rouge",
+            "state": "LA"
+          }
+        },
+        {
+          "fullName": "Mississippi State University",
+          "shortName": "Mississippi State",
+          "teamName": "Bulldogs",
+          "abbreviation": "MSST",
+          "colors": {
+            "primary": "#660000",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "gray": "#999999"
+            }
+          },
+          "broadcast": {
+            "networkName": "Mississippi State University",
+            "hashTag": "#HailState",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Starkville",
+            "state": "MS"
+          }
+        },
+        {
+          "fullName": "University of Mississippi",
+          "shortName": "Ole Miss",
+          "teamName": "Rebels",
+          "abbreviation": "MISS",
+          "colors": {
+            "primary": "#CE1126",
+            "secondary": "#14213D",
+            "additional": {
+              "powder_blue": "#006BA6"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Mississippi",
+            "hashTag": "#HottyToddy",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Oxford",
+            "state": "MS"
+          }
+        },
+        {
+          "fullName": "University of Missouri",
+          "shortName": "Missouri",
+          "teamName": "Tigers",
+          "abbreviation": "MIZZ",
+          "colors": {
+            "primary": "#F1B82D",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Missouri",
+            "hashTag": "#MIZ",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Columbia",
+            "state": "MO"
+          }
+        },
+        {
+          "fullName": "University of Oklahoma",
+          "shortName": "Oklahoma",
+          "teamName": "Sooners",
+          "abbreviation": "OU",
+          "colors": {
+            "primary": "#841617",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "dark_crimson": "#4E0002"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Oklahoma",
+            "hashTag": "#BoomerSooner",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Norman",
+            "state": "OK"
+          }
+        },
+        {
+          "fullName": "University of South Carolina",
+          "shortName": "South Carolina",
+          "teamName": "Gamecocks",
+          "abbreviation": "SC",
+          "colors": {
+            "primary": "#73000A",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of South Carolina",
+            "hashTag": "#Gamecocks",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Columbia",
+            "state": "SC"
+          }
+        },
+        {
+          "fullName": "University of Tennessee",
+          "shortName": "Tennessee",
+          "teamName": "Volunteers",
+          "abbreviation": "TENN",
+          "colors": {
+            "primary": "#FF8200",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "smokey": "#58595B"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Tennessee",
+            "hashTag": "#GBO",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "light"
+          },
+          "location": {
+            "city": "Knoxville",
+            "state": "TN"
+          }
+        },
+        {
+          "fullName": "University of Texas at Austin",
+          "shortName": "Texas",
+          "teamName": "Longhorns",
+          "abbreviation": "TEX",
+          "colors": {
+            "primary": "#BF5700",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "charcoal": "#333F48"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Texas",
+            "hashTag": "#HookEm",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Austin",
+            "state": "TX"
+          }
+        },
+        {
+          "fullName": "Texas A&M University",
+          "shortName": "Texas A&M",
+          "teamName": "Aggies",
+          "abbreviation": "TAMU",
+          "colors": {
+            "primary": "#500000",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "gray": "#707271"
+            }
+          },
+          "broadcast": {
+            "networkName": "Texas A&M University",
+            "hashTag": "#GigEm",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "College Station",
+            "state": "TX"
+          }
+        },
+        {
+          "fullName": "Vanderbilt University",
+          "shortName": "Vanderbilt",
+          "teamName": "Commodores",
+          "abbreviation": "VAN",
+          "colors": {
+            "primary": "#866D4B",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Vanderbilt University",
+            "hashTag": "#AnchorDown",
+            "conferenceLogoBug": "SEC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Nashville",
+            "state": "TN"
+          }
+        }
+      ]
+    },
+    "Big_Ten": {
+      "fullName": "Big Ten Conference",
+      "schools": [
+        {
+          "fullName": "University of Illinois",
+          "shortName": "Illinois",
+          "teamName": "Fighting Illini",
+          "abbreviation": "ILL",
+          "colors": {
+            "primary": "#E84A27",
+            "secondary": "#13294B",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Illinois",
+            "hashTag": "#Illini",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Champaign",
+            "state": "IL"
+          }
+        },
+        {
+          "fullName": "Indiana University",
+          "shortName": "Indiana",
+          "teamName": "Hoosiers",
+          "abbreviation": "IND",
+          "colors": {
+            "primary": "#990000",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "cream": "#F1BE48"
+            }
+          },
+          "broadcast": {
+            "networkName": "Indiana University",
+            "hashTag": "#IUFB",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Bloomington",
+            "state": "IN"
+          }
+        },
+        {
+          "fullName": "University of Iowa",
+          "shortName": "Iowa",
+          "teamName": "Hawkeyes",
+          "abbreviation": "IOWA",
+          "colors": {
+            "primary": "#000000",
+            "secondary": "#FFCD00",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Iowa",
+            "hashTag": "#Hawkeyes",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Iowa City",
+            "state": "IA"
+          }
+        },
+        {
+          "fullName": "University of Maryland",
+          "shortName": "Maryland",
+          "teamName": "Terrapins",
+          "abbreviation": "MD",
+          "colors": {
+            "primary": "#E03a3e",
+            "secondary": "#FFD520",
+            "additional": {
+              "black": "#000000",
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Maryland",
+            "hashTag": "#TBIA",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "College Park",
+            "state": "MD"
+          }
+        },
+        {
+          "fullName": "University of Michigan",
+          "shortName": "Michigan",
+          "teamName": "Wolverines",
+          "abbreviation": "MICH",
+          "colors": {
+            "primary": "#00274C",
+            "secondary": "#FFCB05",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Michigan",
+            "hashTag": "#GoBlue",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Ann Arbor",
+            "state": "MI"
+          }
+        },
+        {
+          "fullName": "Michigan State University",
+          "shortName": "Michigan State",
+          "teamName": "Spartans",
+          "abbreviation": "MSU",
+          "colors": {
+            "primary": "#18453B",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "bronze": "#B9B9B9"
+            }
+          },
+          "broadcast": {
+            "networkName": "Michigan State University",
+            "hashTag": "#GoGreen",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "East Lansing",
+            "state": "MI"
+          }
+        },
+        {
+          "fullName": "University of Minnesota",
+          "shortName": "Minnesota",
+          "teamName": "Golden Gophers",
+          "abbreviation": "MINN",
+          "colors": {
+            "primary": "#7A0019",
+            "secondary": "#FFCC33",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Minnesota",
+            "hashTag": "#SkiUMah",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Minneapolis",
+            "state": "MN"
+          }
+        },
+        {
+          "fullName": "University of Nebraska",
+          "shortName": "Nebraska",
+          "teamName": "Cornhuskers",
+          "abbreviation": "NEB",
+          "colors": {
+            "primary": "#E41C38",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "cream": "#F5F1E7"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Nebraska",
+            "hashTag": "#GBR",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Lincoln",
+            "state": "NE"
+          }
+        },
+        {
+          "fullName": "Northwestern University",
+          "shortName": "Northwestern",
+          "teamName": "Wildcats",
+          "abbreviation": "NU",
+          "colors": {
+            "primary": "#4E2A84",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Northwestern University",
+            "hashTag": "#GoCats",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Evanston",
+            "state": "IL"
+          }
+        },
+        {
+          "fullName": "Ohio State University",
+          "shortName": "Ohio State",
+          "teamName": "Buckeyes",
+          "abbreviation": "OSU",
+          "colors": {
+            "primary": "#BB0000",
+            "secondary": "#666666",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Ohio State University",
+            "hashTag": "#GoBucks",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Columbus",
+            "state": "OH"
+          }
+        },
+        {
+          "fullName": "Pennsylvania State University",
+          "shortName": "Penn State",
+          "teamName": "Nittany Lions",
+          "abbreviation": "PSU",
+          "colors": {
+            "primary": "#041E42",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "accent": "#969EA5"
+            }
+          },
+          "broadcast": {
+            "networkName": "Penn State University",
+            "hashTag": "#WeAre",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "University Park",
+            "state": "PA"
+          }
+        },
+        {
+          "fullName": "Purdue University",
+          "shortName": "Purdue",
+          "teamName": "Boilermakers",
+          "abbreviation": "PUR",
+          "colors": {
+            "primary": "#CEB888",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Purdue University",
+            "hashTag": "#BoilerUp",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "West Lafayette",
+            "state": "IN"
+          }
+        },
+        {
+          "fullName": "Rutgers University",
+          "shortName": "Rutgers",
+          "teamName": "Scarlet Knights",
+          "abbreviation": "RUT",
+          "colors": {
+            "primary": "#CC0033",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Rutgers University",
+            "hashTag": "#CHOP",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "New Brunswick",
+            "state": "NJ"
+          }
+        },
+        {
+          "fullName": "University of Wisconsin",
+          "shortName": "Wisconsin",
+          "teamName": "Badgers",
+          "abbreviation": "WIS",
+          "colors": {
+            "primary": "#C5050C",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Wisconsin",
+            "hashTag": "#OnWisconsin",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Madison",
+            "state": "WI"
+          }
+        },
+        {
+          "fullName": "University of Southern California",
+          "shortName": "USC",
+          "teamName": "Trojans",
+          "abbreviation": "USC",
+          "colors": {
+            "primary": "#990000",
+            "secondary": "#FFC72C",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "USC",
+            "hashTag": "#FightOn",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Los Angeles",
+            "state": "CA"
+          }
+        },
+        {
+          "fullName": "University of California, Los Angeles",
+          "shortName": "UCLA",
+          "teamName": "Bruins",
+          "abbreviation": "UCLA",
+          "colors": {
+            "primary": "#2D68C4",
+            "secondary": "#F2A900",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "UCLA",
+            "hashTag": "#GoBruins",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Los Angeles",
+            "state": "CA"
+          }
+        },
+        {
+          "fullName": "University of Oregon",
+          "shortName": "Oregon",
+          "teamName": "Ducks",
+          "abbreviation": "ORE",
+          "colors": {
+            "primary": "#154733",
+            "secondary": "#FEE123",
+            "additional": {
+              "black": "#000000",
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Oregon",
+            "hashTag": "#GoDucks",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Eugene",
+            "state": "OR"
+          }
+        },
+        {
+          "fullName": "University of Washington",
+          "shortName": "Washington",
+          "teamName": "Huskies",
+          "abbreviation": "WASH",
+          "colors": {
+            "primary": "#4B2E83",
+            "secondary": "#B7A57A",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Washington",
+            "hashTag": "#GoHuskies",
+            "conferenceLogoBug": "B1G",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Seattle",
+            "state": "WA"
+          }
+        }
+      ]
+    },
+    "ACC": {
+      "fullName": "Atlantic Coast Conference",
+      "schools": [
+        {
+          "fullName": "Boston College",
+          "shortName": "Boston College",
+          "teamName": "Eagles",
+          "abbreviation": "BC",
+          "colors": {
+            "primary": "#98002E",
+            "secondary": "#BC9B6A",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Boston College",
+            "hashTag": "#WeAreBC",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Chestnut Hill",
+            "state": "MA"
+          }
+        },
+        {
+          "fullName": "University of California, Berkeley",
+          "shortName": "California",
+          "teamName": "Golden Bears",
+          "abbreviation": "CAL",
+          "colors": {
+            "primary": "#003262",
+            "secondary": "#FDB515",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Cal",
+            "hashTag": "#GoBears",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Berkeley",
+            "state": "CA"
+          }
+        },
+        {
+          "fullName": "Clemson University",
+          "shortName": "Clemson",
+          "teamName": "Tigers",
+          "abbreviation": "CLEM",
+          "colors": {
+            "primary": "#F56600",
+            "secondary": "#522D80",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Clemson University",
+            "hashTag": "#AllIn",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Clemson",
+            "state": "SC"
+          }
+        },
+        {
+          "fullName": "Duke University",
+          "shortName": "Duke",
+          "teamName": "Blue Devils",
+          "abbreviation": "DUKE",
+          "colors": {
+            "primary": "#003087",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Duke University",
+            "hashTag": "#GoDuke",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Durham",
+            "state": "NC"
+          }
+        },
+        {
+          "fullName": "Florida State University",
+          "shortName": "Florida State",
+          "teamName": "Seminoles",
+          "abbreviation": "FSU",
+          "colors": {
+            "primary": "#782F40",
+            "secondary": "#CEB888",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Florida State University",
+            "hashTag": "#NoleFamily",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Tallahassee",
+            "state": "FL"
+          }
+        },
+        {
+          "fullName": "Georgia Institute of Technology",
+          "shortName": "Georgia Tech",
+          "teamName": "Yellow Jackets",
+          "abbreviation": "GT",
+          "colors": {
+            "primary": "#B3A369",
+            "secondary": "#003057",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Georgia Tech",
+            "hashTag": "#TogetherWeSwarm",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Atlanta",
+            "state": "GA"
+          }
+        },
+        {
+          "fullName": "University of Louisville",
+          "shortName": "Louisville",
+          "teamName": "Cardinals",
+          "abbreviation": "LOU",
+          "colors": {
+            "primary": "#AD0000",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Louisville",
+            "hashTag": "#GoCards",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Louisville",
+            "state": "KY"
+          }
+        },
+        {
+          "fullName": "University of Miami",
+          "shortName": "Miami",
+          "teamName": "Hurricanes",
+          "abbreviation": "MIA",
+          "colors": {
+            "primary": "#F47321",
+            "secondary": "#005030",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Miami",
+            "hashTag": "#ItsAllAboutTheU",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Coral Gables",
+            "state": "FL"
+          }
+        },
+        {
+          "fullName": "University of North Carolina",
+          "shortName": "North Carolina",
+          "teamName": "Tar Heels",
+          "abbreviation": "UNC",
+          "colors": {
+            "primary": "#7BAFD4",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "navy": "#13294B"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of North Carolina",
+            "hashTag": "#GoHeels",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Chapel Hill",
+            "state": "NC"
+          }
+        },
+        {
+          "fullName": "North Carolina State University",
+          "shortName": "NC State",
+          "teamName": "Wolfpack",
+          "abbreviation": "NCST",
+          "colors": {
+            "primary": "#CC0000",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "NC State University",
+            "hashTag": "#GoPack",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Raleigh",
+            "state": "NC"
+          }
+        },
+        {
+          "fullName": "University of Notre Dame",
+          "shortName": "Notre Dame",
+          "teamName": "Fighting Irish",
+          "abbreviation": "ND",
+          "colors": {
+            "primary": "#0C2340",
+            "secondary": "#C99700",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Notre Dame",
+            "hashTag": "#GoIrish",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Notre Dame",
+            "state": "IN"
+          }
+        },
+        {
+          "fullName": "University of Pittsburgh",
+          "shortName": "Pittsburgh",
+          "teamName": "Panthers",
+          "abbreviation": "PITT",
+          "colors": {
+            "primary": "#003594",
+            "secondary": "#FFB81C",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Pittsburgh",
+            "hashTag": "#H2P",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Pittsburgh",
+            "state": "PA"
+          }
+        },
+        {
+          "fullName": "Stanford University",
+          "shortName": "Stanford",
+          "teamName": "Cardinal",
+          "abbreviation": "STAN",
+          "colors": {
+            "primary": "#8C1515",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Stanford",
+            "hashTag": "#GoStanford",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Stanford",
+            "state": "CA"
+          }
+        },
+        {
+          "fullName": "Syracuse University",
+          "shortName": "Syracuse",
+          "teamName": "Orange",
+          "abbreviation": "SYR",
+          "colors": {
+            "primary": "#F76900",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Syracuse University",
+            "hashTag": "#Orange",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Syracuse",
+            "state": "NY"
+          }
+        },
+        {
+          "fullName": "University of Virginia",
+          "shortName": "Virginia",
+          "teamName": "Cavaliers",
+          "abbreviation": "UVA",
+          "colors": {
+            "primary": "#232D4B",
+            "secondary": "#F84C1E",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Virginia",
+            "hashTag": "#GoHoos",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Charlottesville",
+            "state": "VA"
+          }
+        },
+        {
+          "fullName": "Virginia Polytechnic Institute and State University",
+          "shortName": "Virginia Tech",
+          "teamName": "Hokies",
+          "abbreviation": "VT",
+          "colors": {
+            "primary": "#630031",
+            "secondary": "#CF4420",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Virginia Tech",
+            "hashTag": "#Hokies",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Blacksburg",
+            "state": "VA"
+          }
+        },
+        {
+          "fullName": "Wake Forest University",
+          "shortName": "Wake Forest",
+          "teamName": "Demon Deacons",
+          "abbreviation": "WAKE",
+          "colors": {
+            "primary": "#9E7E38",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Wake Forest University",
+            "hashTag": "#GoDeacs",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Winston-Salem",
+            "state": "NC"
+          }
+        },
+        {
+          "fullName": "Southern Methodist University",
+          "shortName": "SMU",
+          "teamName": "Mustangs",
+          "abbreviation": "SMU",
+          "colors": {
+            "primary": "#CC0035",
+            "secondary": "#354CA1",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "SMU",
+            "hashTag": "#PonyUp",
+            "conferenceLogoBug": "ACC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Dallas",
+            "state": "TX"
+          }
+        }
+      ]
+    },
+    "Big_12": {
+      "fullName": "Big 12 Conference",
+      "schools": [
+        {
+          "fullName": "Baylor University",
+          "shortName": "Baylor",
+          "teamName": "Bears",
+          "abbreviation": "BAY",
+          "colors": {
+            "primary": "#003015",
+            "secondary": "#FFB81C",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Baylor University",
+            "hashTag": "#SicEm",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Waco",
+            "state": "TX"
+          }
+        },
+        {
+          "fullName": "Brigham Young University",
+          "shortName": "BYU",
+          "teamName": "Cougars",
+          "abbreviation": "BYU",
+          "colors": {
+            "primary": "#002E5D",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "navy": "#002E5D"
+            }
+          },
+          "broadcast": {
+            "networkName": "BYU",
+            "hashTag": "#GoCougs",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Provo",
+            "state": "UT"
+          }
+        },
+        {
+          "fullName": "University of Central Florida",
+          "shortName": "UCF",
+          "teamName": "Knights",
+          "abbreviation": "UCF",
+          "colors": {
+            "primary": "#000000",
+            "secondary": "#BA9B37",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "UCF",
+            "hashTag": "#ChargeOn",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Orlando",
+            "state": "FL"
+          }
+        },
+        {
+          "fullName": "University of Cincinnati",
+          "shortName": "Cincinnati",
+          "teamName": "Bearcats",
+          "abbreviation": "CIN",
+          "colors": {
+            "primary": "#000000",
+            "secondary": "#E00122",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Cincinnati",
+            "hashTag": "#Bearcats",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Cincinnati",
+            "state": "OH"
+          }
+        },
+        {
+          "fullName": "University of Houston",
+          "shortName": "Houston",
+          "teamName": "Cougars",
+          "abbreviation": "HOU",
+          "colors": {
+            "primary": "#C8102E",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Houston",
+            "hashTag": "#GoCoogs",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Houston",
+            "state": "TX"
+          }
+        },
+        {
+          "fullName": "Iowa State University",
+          "shortName": "Iowa State",
+          "teamName": "Cyclones",
+          "abbreviation": "ISU",
+          "colors": {
+            "primary": "#C8102E",
+            "secondary": "#F1BE48",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Iowa State University",
+            "hashTag": "#CyclONEnation",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Ames",
+            "state": "IA"
+          }
+        },
+        {
+          "fullName": "University of Kansas",
+          "shortName": "Kansas",
+          "teamName": "Jayhawks",
+          "abbreviation": "KU",
+          "colors": {
+            "primary": "#0051BA",
+            "secondary": "#E8000D",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Kansas",
+            "hashTag": "#RockChalk",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Lawrence",
+            "state": "KS"
+          }
+        },
+        {
+          "fullName": "Kansas State University",
+          "shortName": "Kansas State",
+          "teamName": "Wildcats",
+          "abbreviation": "KSU",
+          "colors": {
+            "primary": "#512888",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "silver": "#8D8D8D"
+            }
+          },
+          "broadcast": {
+            "networkName": "Kansas State University",
+            "hashTag": "#KStateFB",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Manhattan",
+            "state": "KS"
+          }
+        },
+        {
+          "fullName": "Oklahoma State University",
+          "shortName": "Oklahoma State",
+          "teamName": "Cowboys",
+          "abbreviation": "OKST",
+          "colors": {
+            "primary": "#FF7300",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Oklahoma State University",
+            "hashTag": "#GoPokes",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Stillwater",
+            "state": "OK"
+          }
+        },
+        {
+          "fullName": "Texas Christian University",
+          "shortName": "TCU",
+          "teamName": "Horned Frogs",
+          "abbreviation": "TCU",
+          "colors": {
+            "primary": "#4D1979",
+            "secondary": "#A3A9AC",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "TCU",
+            "hashTag": "#GoFrogs",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Fort Worth",
+            "state": "TX"
+          }
+        },
+        {
+          "fullName": "Texas Tech University",
+          "shortName": "Texas Tech",
+          "teamName": "Red Raiders",
+          "abbreviation": "TTU",
+          "colors": {
+            "primary": "#CC0000",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Texas Tech University",
+            "hashTag": "#WreckEm",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Lubbock",
+            "state": "TX"
+          }
+        },
+        {
+          "fullName": "West Virginia University",
+          "shortName": "West Virginia",
+          "teamName": "Mountaineers",
+          "abbreviation": "WVU",
+          "colors": {
+            "primary": "#002855",
+            "secondary": "#EAAA00",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "West Virginia University",
+            "hashTag": "#HailWV",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Morgantown",
+            "state": "WV"
+          }
+        },
+        {
+          "fullName": "University of Arizona",
+          "shortName": "Arizona",
+          "teamName": "Wildcats",
+          "abbreviation": "ARIZ",
+          "colors": {
+            "primary": "#CC0033",
+            "secondary": "#003366",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Arizona",
+            "hashTag": "#BearDown",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Tucson",
+            "state": "AZ"
+          }
+        },
+        {
+          "fullName": "Arizona State University",
+          "shortName": "Arizona State",
+          "teamName": "Sun Devils",
+          "abbreviation": "ASU",
+          "colors": {
+            "primary": "#8C1D40",
+            "secondary": "#FFC627",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Arizona State University",
+            "hashTag": "#ForksUp",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Tempe",
+            "state": "AZ"
+          }
+        },
+        {
+          "fullName": "University of Colorado",
+          "shortName": "Colorado",
+          "teamName": "Buffaloes",
+          "abbreviation": "COLO",
+          "colors": {
+            "primary": "#CFB87C",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Colorado",
+            "hashTag": "#SkoBuffs",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Boulder",
+            "state": "CO"
+          }
+        },
+        {
+          "fullName": "University of Utah",
+          "shortName": "Utah",
+          "teamName": "Utes",
+          "abbreviation": "UTAH",
+          "colors": {
+            "primary": "#CC0000",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Utah",
+            "hashTag": "#GoUtes",
+            "conferenceLogoBug": "B12",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Salt Lake City",
+            "state": "UT"
+          }
+        }
+      ]
+    },
+    "Ivy_League": {
+      "fullName": "Ivy League",
+      "schools": [
+        {
+          "fullName": "Brown University",
+          "shortName": "Brown",
+          "teamName": "Bears",
+          "abbreviation": "BRWN",
+          "colors": {
+            "primary": "#4E3629",
+            "secondary": "#C00",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Brown University",
+            "hashTag": "#GoBruno",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Providence",
+            "state": "RI"
+          }
+        },
+        {
+          "fullName": "Columbia University",
+          "shortName": "Columbia",
+          "teamName": "Lions",
+          "abbreviation": "COL",
+          "colors": {
+            "primary": "#9BCBEB",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "dark_blue": "#002B7F"
+            }
+          },
+          "broadcast": {
+            "networkName": "Columbia University",
+            "hashTag": "#RoarLionRoar",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "New York",
+            "state": "NY"
+          }
+        },
+        {
+          "fullName": "Cornell University",
+          "shortName": "Cornell",
+          "teamName": "Big Red",
+          "abbreviation": "COR",
+          "colors": {
+            "primary": "#B31B1B",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Cornell University",
+            "hashTag": "#LGR",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Ithaca",
+            "state": "NY"
+          }
+        },
+        {
+          "fullName": "Dartmouth College",
+          "shortName": "Dartmouth",
+          "teamName": "Big Green",
+          "abbreviation": "DART",
+          "colors": {
+            "primary": "#00693E",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Dartmouth College",
+            "hashTag": "#GoBigGreen",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Hanover",
+            "state": "NH"
+          }
+        },
+        {
+          "fullName": "Harvard University",
+          "shortName": "Harvard",
+          "teamName": "Crimson",
+          "abbreviation": "HARV",
+          "colors": {
+            "primary": "#A51C30",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "black": "#000000"
+            }
+          },
+          "broadcast": {
+            "networkName": "Harvard University",
+            "hashTag": "#GoCrimson",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Cambridge",
+            "state": "MA"
+          }
+        },
+        {
+          "fullName": "University of Pennsylvania",
+          "shortName": "Penn",
+          "teamName": "Quakers",
+          "abbreviation": "PENN",
+          "colors": {
+            "primary": "#011F5B",
+            "secondary": "#990000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "University of Pennsylvania",
+            "hashTag": "#FightOnPenn",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Philadelphia",
+            "state": "PA"
+          }
+        },
+        {
+          "fullName": "Princeton University",
+          "shortName": "Princeton",
+          "teamName": "Tigers",
+          "abbreviation": "PRIN",
+          "colors": {
+            "primary": "#FF8F00",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Princeton University",
+            "hashTag": "#GoPrinceton",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Princeton",
+            "state": "NJ"
+          }
+        },
+        {
+          "fullName": "Yale University",
+          "shortName": "Yale",
+          "teamName": "Bulldogs",
+          "abbreviation": "YALE",
+          "colors": {
+            "primary": "#00356B",
+            "secondary": "#FFFFFF",
+            "additional": {
+              "yale_blue": "#0F4D92"
+            }
+          },
+          "broadcast": {
+            "networkName": "Yale University",
+            "hashTag": "#ThisIsYale",
+            "conferenceLogoBug": "IVY",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "New Haven",
+            "state": "CT"
+          }
+        }
+      ]
+    },
+    "PAC_Remaining": {
+      "fullName": "Remaining Pacific Schools",
+      "schools": [
+        {
+          "fullName": "Oregon State University",
+          "shortName": "Oregon State",
+          "teamName": "Beavers",
+          "abbreviation": "ORST",
+          "colors": {
+            "primary": "#DC4405",
+            "secondary": "#000000",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Oregon State University",
+            "hashTag": "#GoBeavs",
+            "conferenceLogoBug": "PAC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Corvallis",
+            "state": "OR"
+          }
+        },
+        {
+          "fullName": "Washington State University",
+          "shortName": "Washington State",
+          "teamName": "Cougars",
+          "abbreviation": "WSU",
+          "colors": {
+            "primary": "#981E32",
+            "secondary": "#5E6A71",
+            "additional": {
+              "white": "#FFFFFF"
+            }
+          },
+          "broadcast": {
+            "networkName": "Washington State University",
+            "hashTag": "#GoCougs",
+            "conferenceLogoBug": "PAC",
+            "preferredBackground": "dark"
+          },
+          "location": {
+            "city": "Pullman",
+            "state": "WA"
+          }
+        }
+      ]
+    }
+  }
+}

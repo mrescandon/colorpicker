@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>College Sports Color Picker</title>
+    
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a1a">
+    
+    <!-- iOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Color Picker">
+    
+    <!-- iOS Icons -->
+    <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="icons/icon-167x167.png">
+    
+    <!-- iOS Splash Screens -->
+    <link rel="apple-touch-startup-image" href="splash/apple-splash-2048-2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="splash/apple-splash-1668-2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="splash/apple-splash-1536-2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="splash/apple-splash-1125-2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)">
+    <link rel="apple-touch-startup-image" href="splash/apple-splash-828-1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+    <h1>College Sports Color Picker</h1>
+    <p>Click any color swatch to copy its hex code to your clipboard</p>
+    <button id="themeToggle" class="theme-toggle">
+        <span class="light-icon">☀️</span>
+        <span class="dark-icon">🌙</span>
+    </button>
+</div>
+<!-- Donation section -->
+    <div class="donation-container">
+    <p class="donation-text">Find this tool useful? Consider buying me a coffee! 😊</p>
+    <div class="donation-buttons">
+        <a href="https://cash.app/$escandonvideo" target="_blank" class="donate-button cashapp">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <span>Cash App</span>
+        </a>
+        <a href="https://venmo.com/mp_ending" target="_blank" class="donate-button venmo">
+            <i class="fa-solid fa-v"></i>
+            <span>Venmo</span>
+        </a>
+        <a href="https://paypal.me/paulescandon" target="_blank" class="donate-button paypal">
+            <i class="fa-brands fa-paypal"></i>
+            <span>PayPal</span>
+        </a>
+    </div>
+</div>
+</div>
+    <div class="nav-tabs">
+    <button class="tab active" data-conference="SEC">SEC</button>
+    <button class="tab" data-conference="Big_Ten">Big Ten</button>
+    <button class="tab" data-conference="ACC">ACC</button>
+    <button class="tab" data-conference="Big_12">Big 12</button>
+    <button class="tab" data-conference="Ivy_League">Ivy League</button>
+    <button class="tab" data-conference="PAC_Remaining">PAC Remaining</button>
+	</div>
+
+	<div class="conference-wrapper">
+		<div id="SEC" class="conference-section active"></div>
+		<div id="Big_Ten" class="conference-section"></div>
+		<div id="ACC" class="conference-section"></div>
+		<div id="Big_12" class="conference-section"></div>
+		<div id="Ivy_League" class="conference-section"></div>
+		<div id="PAC_Remaining" class="conference-section"></div>
+	</div>
+
+    <script src="js/main.js"></script>
+    <div class="selected-colors-container">
+        <button class="clipboard-toggle" aria-label="Toggle clipboard visibility">
+            <span class="toggle-icon">▼</span>
+        </button>
+        <div class="selected-colors-header">
+            <h2>Selected Colors</h2>
+            <div class="format-toggle">
+                <span>Display Format:</span>
+                <select id="displayFormat" class="format-select">
+                    <option value="hex">Hex Codes Only</option>
+                    <option value="full">School Name + Color + Hex</option>
+                </select>
+            </div>
+        </div>
+        <div id="selectedColors" class="selected-colors">
+            <p class="no-selections">No colors selected yet. Click any color swatch to add it here.</p>
+        </div>
+        <div class="selected-colors-actions">
+            <button id="copyAll" class="action-button" style="display: none;">Copy All</button>
+            <button id="clearAll" class="action-button" style="display: none;">Clear All</button>
+        </div>
+    </div>
+</body>
+</html>
