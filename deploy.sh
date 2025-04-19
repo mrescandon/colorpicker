@@ -1,13 +1,28 @@
+
 #!/bin/bash
 
-echo "Installing lftp..."
-apt update && apt install -y lftp
+# Display deployment start message
+echo "Starting deployment process..."
 
-echo "Deploying to $SFTP_HOST:$SFTP_PORT as $SFTP_USER..."
+# Check if required environment variables are set
+if [ -z "$SFTP_HOST" ] || [ -z "$SFTP_PORT" ] || [ -z "$SFTP_USER" ] || [ -z "$SFTP_PASSWORD" ]; then
+    echo "Error: Missing required environment variables"
+    echo "Please ensure SFTP_HOST, SFTP_PORT, SFTP_USER, and SFTP_PASSWORD are set"
+    exit 1
+fi
 
-lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "$SFTP_PORT" sftp://"$SFTP_HOST" <<EOF
-mirror -R ./ /home/$SFTP_USER/public_html/colorpicker
-bye
+# Create a temporary SFTP batch file
+echo "Creating SFTP commands..."
+cat > sftp_commands.txt << EOF
+cd public_html/colorpicker
+put -r *
 EOF
 
-echo "Deploy complete!"
+# Execute SFTP transfer
+echo "Deploying to $SFTP_HOST:$SFTP_PORT as $SFTP_USER..."
+sshpass -p "$SFTP_PASSWORD" sftp -P "$SFTP_PORT" -o StrictHostKeyChecking=no -b sftp_commands.txt "$SFTP_USER@$SFTP_HOST"
+
+# Clean up
+rm sftp_commands.txt
+
+echo "Deployment complete!"
