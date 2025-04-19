@@ -1,28 +1,27 @@
 
 #!/bin/bash
 
-# Display deployment start message
-echo "Starting deployment process..."
+# Configuration
+echo "Starting deployment..."
 
-# Check if required environment variables are set
-if [ -z "$SFTP_HOST" ] || [ -z "$SFTP_PORT" ] || [ -z "$SFTP_USER" ] || [ -z "$SFTP_PASSWORD" ]; then
-    echo "Error: Missing required environment variables"
-    echo "Please ensure SFTP_HOST, SFTP_PORT, SFTP_USER, and SFTP_PASSWORD are set"
+# Check for required environment variables
+if [ -z "$SFTP_HOST" ] || [ -z "$SFTP_USER" ] || [ -z "$SFTP_PASSWORD" ]; then
+    echo "Error: Required environment variables are not set"
+    echo "Please set SFTP_HOST, SFTP_USER, and SFTP_PASSWORD"
     exit 1
 fi
 
-# Create a temporary SFTP batch file
-echo "Creating SFTP commands..."
-cat > sftp_commands.txt << EOF
-cd public_html/colorpicker
-put -r *
-EOF
+# Create a temporary directory for deployment
+DEPLOY_DIR=$(mktemp -d)
+echo "Created temporary directory: $DEPLOY_DIR"
 
-# Execute SFTP transfer
-echo "Deploying to $SFTP_HOST:$SFTP_PORT as $SFTP_USER..."
-sshpass -p "$SFTP_PASSWORD" sftp -P "$SFTP_PORT" -o StrictHostKeyChecking=no -b sftp_commands.txt "$SFTP_USER@$SFTP_HOST"
+# Copy all required files to temporary directory
+cp -r css data icons js splash index.html manifest.json sw.js "$DEPLOY_DIR/"
+echo "Files copied to temporary directory"
 
-# Clean up
-rm sftp_commands.txt
+# Use scp to transfer files
+sshpass -p "$SFTP_PASSWORD" scp -r -P 21098 -o StrictHostKeyChecking=no "$DEPLOY_DIR"/* "$SFTP_USER@$SFTP_HOST:public_html/colorpicker/"
 
+# Cleanup
+rm -rf "$DEPLOY_DIR"
 echo "Deployment complete!"
