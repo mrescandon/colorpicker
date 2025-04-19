@@ -11,17 +11,25 @@ if [ -z "$SFTP_HOST" ] || [ -z "$SFTP_USER" ] || [ -z "$SFTP_PASSWORD" ]; then
     exit 1
 fi
 
-# Create a temporary directory for deployment
-DEPLOY_DIR=$(mktemp -d)
-echo "Created temporary directory: $DEPLOY_DIR"
+# Create SFTP batch commands
+echo "Creating SFTP commands..."
+cat > sftp_batch << EOF
+cd public_html/colorpicker
+put index.html
+put manifest.json
+put sw.js
+put -r css
+put -r data
+put -r icons
+put -r js
+put -r splash
+quit
+EOF
 
-# Copy all required files to temporary directory
-cp -r css data icons js splash index.html manifest.json sw.js "$DEPLOY_DIR/"
-echo "Files copied to temporary directory"
-
-# Use scp to transfer files
-sshpass -p "$SFTP_PASSWORD" scp -r -P 21098 -o StrictHostKeyChecking=no "$DEPLOY_DIR"/* "$SFTP_USER@$SFTP_HOST:public_html/colorpicker/"
+# Execute SFTP transfer
+echo "Deploying files..."
+sftp -b sftp_batch -P 21098 "$SFTP_USER@$SFTP_HOST"
 
 # Cleanup
-rm -rf "$DEPLOY_DIR"
+rm sftp_batch
 echo "Deployment complete!"
